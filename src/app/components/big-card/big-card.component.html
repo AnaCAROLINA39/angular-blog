@@ -4,9 +4,12 @@
     </div>
 
     <div class="big-card-title">
-       <h1> <a href="#">{{cardtitle}}!</a> </h1>
+       <h1> <a [routerLink]="['Content',Id]">{{cardtitle}}!</a> </h1>
     </div>
     <div class="big-card-description">
-        <p>{{cardDescription}}</p>
+        <p>
+            <a [routerLink]="['Content',Id]">Leia mais...
+           {{cardDescription}}</a>
+        </p>
     </div>
 </div>

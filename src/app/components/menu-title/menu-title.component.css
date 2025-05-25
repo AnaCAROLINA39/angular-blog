@@ -8,6 +8,7 @@ font-size: 140px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 display: flex;
 justify-content: center;
+
 }
 .container-menu-title > hr {
     margin-top: 5px;

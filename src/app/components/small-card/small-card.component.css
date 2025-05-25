@@ -22,7 +22,9 @@
     justify-content: center;
     align-items: center;
 }
-
+.big-card-title{
+    font-size: 10px;
+}
 .container-separador {
     margin-top: 5px;
 }
